@@ -53,7 +53,6 @@ img{
     height: 0;
 }
 
-<<<<<<< HEAD
 .nodote{
     list-style-type: none;
     padding: 0;
@@ -310,7 +309,8 @@ label{
 
 .header__loupe:active path{
     opacity: 20%;
-=======
+}
+
 /*Стилизация хедера*/
 .header{
     text-transform: uppercase;
@@ -319,7 +319,6 @@ label{
 .header__search{
     background: #fff;
     border: 1px solid transparent;
->>>>>>> 1b2440a886893f7157b3ccb92a737c5f05faab0b
 }
 
 .header__button{
@@ -374,7 +373,6 @@ footer{
 }
 
 .footer__link{
-<<<<<<< HEAD
     padding-bottom: 15px;
     cursor: pointer;
 }
@@ -514,15 +512,8 @@ div .footer__input{
 .footer__raiting_grey:hover{
     text-decoration: underline;
 }
-=======
-    color:#fff;
-}
-
-.footer__input{
-    background: #666666;
-}
 
 .footer__button{
     background-color: #1E0606;
 }
->>>>>>> 1b2440a886893f7157b3ccb92a737c5f05faab0b
+
