@@ -12,6 +12,24 @@ body{
     margin: 0;
 }
 
+.font-title__1{
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.font-title__2{
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #1E0606;
+}
+
 a{
     text-decoration: none;
     color: #1E0606;
@@ -35,6 +53,7 @@ img{
     height: 0;
 }
 
+<<<<<<< HEAD
 .nodote{
     list-style-type: none;
     padding: 0;
@@ -291,6 +310,16 @@ label{
 
 .header__loupe:active path{
     opacity: 20%;
+=======
+/*Стилизация хедера*/
+.header{
+    text-transform: uppercase;
+}
+
+.header__search{
+    background: #fff;
+    border: 1px solid transparent;
+>>>>>>> 1b2440a886893f7157b3ccb92a737c5f05faab0b
 }
 
 .header__button{
@@ -345,6 +374,7 @@ footer{
 }
 
 .footer__link{
+<<<<<<< HEAD
     padding-bottom: 15px;
     cursor: pointer;
 }
@@ -484,3 +514,15 @@ div .footer__input{
 .footer__raiting_grey:hover{
     text-decoration: underline;
 }
+=======
+    color:#fff;
+}
+
+.footer__input{
+    background: #666666;
+}
+
+.footer__button{
+    background-color: #1E0606;
+}
+>>>>>>> 1b2440a886893f7157b3ccb92a737c5f05faab0b
