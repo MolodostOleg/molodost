@@ -43,11 +43,7 @@
 
     <main>
 
-        <section class="heading-product container">   
-
-            <h1 class="hidden">
-                Описание продукта
-            </h1>
+        <section class="heading-product container">  
 
             <ul class="subtitle nodote title__content">
 
@@ -73,36 +69,44 @@
         <section class="container product">
                 <div class="product__photo">
                     <div class="product__photo_nav">
-                        <button type="button" class="product__arrow"></button>
+                        <button type="button" class="product__arrow">
+                            <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 16L15 3L28 16" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                                </svg>                                
+                        </button>
 
                         <ul class="nodote">
                             <li>
                                 <button type="button" class="product__img_little">
-                                    <img src="#" alt="photo_1">
+                                    <img src="../img/product/shark1.png" alt="photo_1">
                                 </button>
                             </li>
                             <li>
                                 <button type="button" class="product__img_little">
-                                    <img src="#" alt="photo_2">
+                                    <img src="../img/product/shark2.png" alt="photo_2">
                                 </button>
                             </li>
                             <li>
                                 <button type="button" class="product__img_little">
-                                    <img src="#" alt="photo_3">
+                                    <img src="../img/product/shark3.png" alt="photo_3">
                                 </button>
                             </li>
                         </ul>
 
-                        <button type="button" class="arrow"></button>
+                        <button type="button" class="product__arrow">
+                            <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 2L15 15L28 2" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4"/>
+                                </svg>                                
+                        </button>
                     </div>
 
-                    <img src="#" alt="photo_main" class="product__photo">
+                    <img src="../img/product/shark main.png" alt="photo_main" class="product__photo_main">
                 </div>
 
                 <div class="product__info">
 
-                    <h2 class="heading_main">Кресло груша SHARKY BEAN</h2>
-                    <p class="product__price"></p>
+                    <h1 class="heading_main">Кресло груша SHARKY BEAN</h1>
+                    <p class="product__price">$60.00 USD</p>
 
                     <div class="product__choice">
                         <ul class="nodote">
@@ -121,18 +125,6 @@
 
                         <button type="submit" class="button">В корзину</button>
                     </div>
-
-                    <form action="#">
-                        <fieldset>
-                            <input type="checkbox" name="like" id="like">
-                            <label for="like">Добавить в избранное</label>
-                        </fieldset>
-
-                        <fieldset>
-                            <input type="checkbox" name="repost" id="repost">
-                            <label for="like">Поделиться с друзьями</label>
-                        </fieldset>
-                    </form>
                 </div>
         </section>
 

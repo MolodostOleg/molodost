@@ -26,14 +26,6 @@ header{
     left: 28px;
 }
 
-.banner::before::before{
-    content: '';
-    display: block;
-    width: 31px;
-    height: 3px;
-
-}
-
 .banner__title{
     margin-bottom: 10px;
 }
@@ -60,7 +52,6 @@ header{
 .banner__line{
     background-color: #C29974;
     text-align: center;
-<<<<<<< HEAD
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
@@ -70,7 +61,6 @@ header{
     margin: 0;
     position: relative;
     z-index: 2;
-=======
     padding: 9px 22px;
 }
 
@@ -154,7 +144,6 @@ header{
 .catalog__button{
     background-color:#E1F0F7;
     border: 1px solid transparent;
->>>>>>> 1b2440a886893f7157b3ccb92a737c5f05faab0b
 }
 
 
